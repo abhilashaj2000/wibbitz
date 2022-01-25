@@ -1,0 +1,1370 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #000;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 500;
+}
+input,textarea,select{
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+}
+
+a{
+	color: #000;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "GT-Eesti", Arial;
+	font-weight: 500;
+	color: #000;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1200px;
+}
+.flex-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal
+}
+::placeholder {
+  color: #9B9B9B;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #9B9B9B;
+}
+
+::-ms-input-placeholder {
+  color: #9B9B9B;
+}
+header { 
+	width: 100%;
+	padding: 2% 0;
+
+}
+
+header section.wrapper { 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+header section.wrapper h1.left { 
+
+}
+
+header section.wrapper h1.left a { 
+
+}
+
+header section.wrapper h1.left a img { 
+
+}
+
+header section.wrapper nav.middle { 
+
+}
+
+header section.wrapper nav.middle ul { 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: -140px;
+
+}
+
+header section.wrapper nav.middle ul li { 
+	margin-left: 25px;
+
+}
+
+header section.wrapper nav.middle ul li a { 
+
+}
+
+header section.wrapper nav.right { 
+
+}
+
+header section.wrapper nav.right ul { 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+header section.wrapper nav.right ul li { 
+	margin-left: 30px;
+}
+
+header section.wrapper nav.right ul li a.button { 
+	color: red;
+    border-radius: 5px;
+    background:pink;
+    padding: 8px 12px;
+}
+
+section.spotlight { 
+
+	position: relative;
+	padding: 3% 0;
+}
+section.spotlight .background{
+
+}
+section.spotlight .background .a{
+
+}
+section.spotlight .background .a img{
+	position: absolute;
+	margin-left: 650px;
+    margin-top: 40px;
+	width: 550px;
+}
+section.spotlight section.wrapper{ 
+
+}
+
+section.spotlight section.wrapper div.item { 
+ margin-right: 20%;
+}
+
+section.spotlight section.wrapper div.item h1 { 
+	font-size: 50px;
+	max-width:380px;
+	font-weight: 600;
+	margin-bottom: 30px;
+
+}
+
+section.spotlight section.wrapper div.item p { 
+	font-size: 16px;
+	max-width:380px;
+	font-weight:500;
+	margin-bottom: 30px;
+
+}
+
+section.spotlight section.wrapper div.item form { 
+
+}
+
+section.spotlight section.wrapper div.item form input { 
+	width: 100%;
+    padding: 10px 24px;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid grey;
+    font-size: 16px;
+	max-width: 290px;
+
+}
+
+section.spotlight section.wrapper div.item form a.button { 
+	color: #fff;
+    border-radius: 4px;
+    background:blue;
+    padding: 11px 12px;
+	margin-left: -25px;
+}
+section.creators { 
+  width: 100%;
+  padding: 20px 20px;
+}
+
+section.creators section.wrapper { 
+	
+
+}
+
+section.creators section.wrapper h6 { 
+	font-size: 16px;
+	font-weight: 500;
+ text-align: center;
+ margin-bottom: 30px;
+
+}
+
+section.creators section.wrapper ul { 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+section.creators section.wrapper ul li { 
+
+}
+
+section.creators section.wrapper ul li a { 
+
+}
+
+section.creators section.wrapper ul li a img { 
+
+}
+#content { 
+	width: 100%;
+	padding:85px 0 ;
+}
+
+#content section.wrapper { 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+#content section.feature { 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3% 0;
+
+}
+
+#content section.feature div.left{
+	display: flex;
+	 width: 48%; 
+}
+
+#content section.feature div.left img { 
+	width: 500px;
+
+}
+
+#content section.feature div.right { 
+	width: 48%;
+
+}
+#content section.feature{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#content section.feature div.right div.top { 
+
+}
+
+#content section.feature div.right div.top span.icon { 
+
+}
+
+#content section.feature div.right div.top span.icon img { 
+
+}
+
+#content section.feature div.right div.top h3 { 
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom:20px ;
+	max-width: 400px;
+
+}
+
+#content section.feature div.right div.top p { 
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom:20px ;
+	max-width: 400px;
+
+}
+
+#content section.feature div.right div.top a.button { 
+	color:#fff ;
+    border-radius: 5px;
+    background:blue;
+    padding: 8px 12px;
+	width: 100%;
+	
+}
+
+#content section.feature div.review { 
+}
+
+#content section.feature div.review blockquote { 
+	
+}
+
+#content section.feature div.review blockquote span { 
+	display: flex;
+	width: 100%;
+	color: grey;
+	font-size: 15px;
+	margin-top: 20px;
+	
+}
+
+#content section.feature div.review blockquote small { 
+	display: flex;
+	width: 100%;
+	color: grey;
+	font-size: 15px;
+	margin-top: 20px;
+}
+#content section.feature div.review blockquote img { 
+	margin-top: 20px;
+}
+#reviews { 
+	width: 100%;
+	padding: 2% 0;
+
+}
+
+#reviews section.wrapper { 
+
+}
+
+#reviews section.wrapper section.top { 
+
+}
+
+#reviews section.wrapper section.top h3 { 
+	font-size: 40px;
+	font-weight: 600;
+	max-width: 400px;
+	margin-bottom: 30px;
+}
+
+#reviews section.wrapper section.bottom { 
+
+}
+
+#reviews section.wrapper section.bottom ul { 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+#reviews section.wrapper section.bottom ul li { 
+
+}
+
+#reviews section.wrapper section.bottom ul li div.top { 
+
+}
+
+#reviews section.wrapper section.bottom ul li div.top span.paly { 
+	position: relative;
+}
+
+#reviews section.wrapper section.bottom ul li div.top span.paly div.a { 
+	
+}
+
+#reviews section.wrapper section.bottom ul li div.top span.paly div.a img { 
+	position: absolute;
+	margin-left: 260px;
+	margin-top: 20px;
+	background: #fff;
+	padding: 10px 10px;
+	border-radius: 50px;
+	
+}
+
+#reviews section.wrapper section.bottom ul li div.top span.paly div.logo { 
+
+}
+
+#reviews section.wrapper section.bottom ul li div.top span.paly div.logo img { 
+	position: absolute;
+	margin-top: 190px;
+	margin-left: 15px;
+	background: #fff;
+	padding: 5px 30px;
+	border-radius: 5px;
+}
+
+#reviews section.wrapper section.bottom ul li div.top span.paly div.b { 
+
+}
+
+#reviews section.wrapper section.bottom ul li div.top span.paly div.b img { 
+	width: 300px;
+	height: 250px;
+	border-radius: 8px;
+}
+
+#reviews section.wrapper section.bottom ul li h4 { 
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 15px;
+}
+#about { 
+	width: 100%;
+	height: 3% 0;
+	margin-top: 100px;
+
+}
+
+#about section.wrapper { 
+	
+
+}
+
+#about ul { 
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	
+}
+
+#about ul li { 
+
+}
+
+#about ul li div.top { 
+	
+}
+#about ul li div.top div.logo { 
+	position: relative;
+}
+
+#about ul li div.top div.logo img { 
+	position: absolute;
+	margin-top: 330px;
+	margin-left: 20px;
+	background: #fff;
+	padding: 10px 25px;
+	border-radius: 5px;
+
+}
+
+#about ul li div.top div.a { 
+
+}
+
+#about ul li div.top div.a img { 
+	margin-bottom: 20px;
+
+}
+
+#about ul li div.bottom { 
+
+
+}
+
+#about ul li div.bottom blockquote { 
+	font-size: 20px;
+	font-weight: 600;
+	max-width: 450px;
+	margin-bottom: 16px;
+
+
+}
+
+#about ul li div.bottom h6 { 
+	margin-bottom: 10px;
+	font-weight: 600;
+
+
+}
+
+#about ul li div.bottom span { 
+	margin-bottom: 10px;
+	display: flex;
+	color: #9B9B9B;
+
+
+}
+
+#about ul li div.bottom small { 
+	margin-bottom: 20px;
+	font-weight: 600;
+
+}
+#fecturs { 
+	width: 100%;
+	padding: 3% 0;
+	background: #f8f8f8;
+	margin-top: 60px;
+}
+
+#fecturs section.wrapper { 
+
+}
+
+#fecturs section.top { 
+
+}
+
+#fecturs section.top h3 { 
+	text-align: center;
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+#fecturs section.top section.content { 
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+#fecturs section.top section.content ul { 
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+}
+
+#fecturs section.top section.content ul li { 
+	text-align: center;
+	width: 31%;
+	height: 300px;
+}
+#fecturs section.top section.content ul li:nth-child(2),
+#fecturs section.top section.content ul li:nth-child(5){
+	border-right: 1px dotted gray;
+	border-left: 1px dotted gray;
+
+}
+
+#fecturs section.top section.content ul li a { 
+	text-align: center;
+	display: inline-block;
+	/* height: 300px; */
+	width: 50%;
+
+}
+
+#fecturs section.top section.content ul li a img { 
+	width: 100%;
+	text-align: center;
+}
+
+#fecturs section.top section.content ul li h4 { 
+	text-align: center;
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+#fecturs section.top section.content ul li h4 a { 
+	text-align: center;
+	font-size: 25px;
+	font-weight: 600;
+	
+}
+
+#fecturs section.top section.content ul li p { 
+	max-width: 400px;
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+
+#fecturs section.top section.content ul li a.button { 
+	text-align: center;
+}
+
+#fecturs section.bottom { 
+	display: flex;
+	align-items: center;
+	margin-left: 350px;
+	margin-top: 40px;
+
+}
+
+#fecturs section.bottom section.content { 
+	position: relative;
+
+}
+
+#fecturs section.bottom section.content span.icon { 
+
+}
+
+#fecturs section.bottom section.content span.icon img { 
+	position: absolute;
+	background: #fff;
+	padding: 10px 10px;
+	border-radius: 50px;
+	margin-top: -20px;
+	margin-left: 80px;
+
+}
+
+#fecturs section.bottom section.content div.element { 
+	display: flex;
+	align-items: center;
+	width: 70%;
+	padding: 20px 20px;
+	border-radius: 10px;
+	background:paleturquoise;
+
+}
+
+#fecturs section.bottom section.content div.element p { 
+	width: 100%;
+}
+
+#fecturs section.bottom section.content div.element a.button { 
+	width: 40%;
+	background-color: blue;
+	padding: 10px 10px;
+	border-radius: 10px;
+	color: #fff;
+}
+#product { 
+	width: 100%;
+	padding: 4% 0;
+
+}
+
+#product section.wrapper { 
+
+}
+
+#product section.top { 
+
+}
+
+#product section.top h1 { 
+	margin: 0 auto;
+	text-align: center;
+	max-width: 500px;
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 50px;
+}
+
+#product section.top ul { 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#product section.top ul li.one { 
+	background: cornflowerblue;
+	width: 30%;
+	height: 500px;
+	position: relative;
+}
+
+#product section.top ul li.one div.logo { 
+	text-align: center;
+}
+
+#product section.top ul li.one div.logo img { 
+	background: #fff;
+	padding: 20px 20px;
+	margin-top: 20px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	
+}
+
+#product section.top ul li.one div.logo h3 { 
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 10px;
+
+}
+
+#product section.top ul li.one div.logo p { 
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 30px;
+
+}
+
+#product section.top ul li.one div.logo a.button { 
+	background-color: blue;
+	padding: 10px 20px;
+	border-radius: 10px;
+	color: #fff;
+	
+}
+
+#product section.top ul li.one div.logo img.hero { 
+	width: 80%;
+	margin-top: 40px;
+}
+
+#product section.top ul li.two { 
+	background-color: darksalmon;
+	width: 30%;
+	height: 500px;
+	position: relative;
+}
+
+#product section.top ul li.two div.logo { 
+	text-align: center;
+
+}
+
+#product section.top ul li.two div.logo img { 
+	background: #fff;
+	padding: 20px 20px;
+	margin-top: 20px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	
+
+}
+
+#product section.top ul li.two div.logo h3 { 
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+#product section.top ul li.two div.logo p { 
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+#product section.top ul li.two div.logo a.button { 
+	background-color: orange;
+	padding: 10px 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	color: #fff;
+
+}
+
+#product section.top ul li.two div.logo img.hero { 
+	width: 80%;
+	margin-top: 40px;
+}
+
+#product section.top ul li.three { 
+	background-color: hotpink;
+	width: 32%;
+	height: 500px;
+	position: relative;
+}
+
+#product section.top ul li.three div.logo { 
+	text-align: center;
+
+}
+
+#product section.top ul li.three div.logo img { 
+	background: #fff;
+	padding: 20px 20px;
+	margin-top: 20px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	
+}
+
+#product section.top ul li.three div.logo h3 { 
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+#product section.top ul li.three div.logo p { 
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 30px;
+	
+}
+
+#product section.top ul li.three div.logo a.button { 
+	background-color: orangered;
+	padding: 10px 20px;
+	border-radius: 10px;
+	color: #fff;
+
+}
+
+#product section.top ul li.three div.logo img.hero { 
+	width: 80%;
+	margin-top: 40px;
+}
+#blog { 
+	width: 100%;
+	padding: 100px 0;
+
+}
+
+#blog section.wrapper { 
+	display: flex;
+	align-items: flex-start;
+
+}
+
+#blog section.wrapper section.top { 
+
+}
+
+#blog section.wrapper section.top h3 { 
+	max-width: 500px;
+	font-size: 45px;
+	font-weight: 600;
+	margin-bottom: 40px;
+
+}
+
+#blog section.wrapper section.top ul { 
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+#blog section.wrapper section.top ul li { 
+	width:30%;
+}
+
+#blog section.wrapper section.top ul li div { 
+}
+
+#blog section.wrapper section.top ul li div img { 
+	width: 100%;
+	border-radius: 8px;
+}
+
+#blog section.wrapper section.top ul li span.label { 
+	margin-top: 20px;
+	font-size: 15px;
+
+}
+#blog section.wrapper section.top ul li span.label1{
+	color: blue;
+	font-size: 15px;
+}
+
+#blog section.wrapper section.top ul li h4 { 
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 15px;
+	
+}
+
+#blog section.wrapper section.top ul li a.button { 
+	border-bottom: 1px solid #000;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    width: 20%;
+    margin-top: 5%;
+	
+}
+#blog a.button1{
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 20px;
+    width: 17%;
+    margin: 0 auto;
+    margin-top: 55px;
+	display: block;
+}
+#contant { 
+	width: 100%;
+	padding: 4% 0;
+	background-color: #000;
+
+}
+
+#contant section.wrapper { 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+
+}
+
+#contant div.left { 
+	width: 48%;
+
+}
+
+#contant div.left h3 { 
+	color: #fff;
+	font-size: 40px;
+	font-weight: 600;
+	width: 100%;
+	max-width: 300px;
+	margin-bottom: 20px;
+
+}
+
+#contant div.left p { 
+	color: gray;
+	font-size: 13px;
+	font-weight: 300;
+	margin-bottom: 30px ;
+
+}
+hr.one{
+	border: 1px dotted #fff;
+	width: 50%;
+	margin-bottom: 20px;
+}
+#contant div.left div.tstimonial { 
+}
+#contant div.left div.tstimonial h5 { 
+	color: #fff;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+#contant div.left div.content { 
+
+}
+
+#contant div.left div.content blockquote { 
+	color: #fff;
+	font-size: 13px;
+	font-weight: 300;
+	margin-bottom: 20px ;
+}
+
+#contant div.left div.content h6 { 
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+#contant div.left div.content span.role { 
+	color: gray;
+	font-size: 13px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+#contant div.left div.content ul.people { 
+ display: flex;
+ 
+}
+#contant div.left div.content ul.people li.active{
+	position: relative;
+}
+#contant div.left div.content ul.people li.active::before { 
+    content: "";
+    width: 0px;
+    border-radius: 50%;
+    border: 2px solid orangered;
+    padding: 21px 21px;
+    position: absolute;
+    top: 8px;
+    left: 0px;
+
+}
+#contant div.left div.content ul.people li.b{
+	position: relative;
+}
+
+#contant div.left div.content ul.people li.b::before { 
+    content: "";
+    width: 0px;
+    border-radius: 50%;
+    border: 2px solid orangered;
+    padding: 21px 21px;
+    position: absolute;
+    top: 8px;
+    left: 0px;
+	display:none
+
+}
+#contant div.left div.content ul.people li.b:hover::before  {
+	display: block;
+}
+
+#contant div.left div.content ul.people li.active img { 
+
+}
+#contant div.left div.content ul.people li { 
+	
+}
+
+#contant div.left div.content ul.people li img:hover { 
+   
+}
+
+#contant div.left div.content ul.people img { 
+	margin-left: 3px;
+	border-radius: 40px;
+	margin-top: 10px;
+	
+}
+hr.two{
+    border: 1px dotted #fff;
+	width: 50%;
+	margin-top: 30px;
+}
+
+#contant div.left div.companis { 
+}
+
+#contant div.left div.companis ul { 
+	margin-top: 50px;
+	display: flex;
+	
+}
+
+#contant div.left div.companis ul li { 
+	
+	margin-right: 20px;
+}
+#contant div.left div.companis ul li :first-child{
+	margin-left: 0px;
+}
+
+#contant div.left div.companis ul li img {
+	filter:invert(100%);
+	 
+
+}
+
+#contant div.right { 
+	width: 48%;
+	background-color: #fff;
+	padding: 50px 50px;
+	border-radius: 8px;
+
+}
+
+#contant div.right h4 { 
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 20px;
+
+}
+div.right { 
+	width: 48%;
+	padding: 20px 20px;
+	background: #fff;
+	border-radius: 8px;
+
+}
+
+div.right h4 { 
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+div.right form { 
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+div.right form div.one_by_two { 
+	width: 48%;
+    padding: 12px 24px;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #c1c7d0;
+    font-size: 16px;
+	margin-bottom: 20px;
+
+}
+
+div.right form div.one_by_two input { 
+
+	
+}
+div.right div.full { 
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+div.right div.full input { 
+	display:flex;
+	align-items: flex-start;
+}
+
+div.right div.full p {
+	color: gray;
+	width: 90%;
+	margin-bottom: 25px;
+}
+
+div.right div.full p a {
+	border-bottom: 1px solid gray; 
+	color: gray;
+	
+}
+select{
+	color: gray;
+}
+
+div.right div.full p a u { 
+
+}
+
+div.right div.full a.button { 
+	margin-left: 100px;
+	text-align: center;
+	width: 48%;
+    padding: 12px 24px;
+    background:blue;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+	margin-bottom: 20px;
+
+}
+footer { 
+	width: 100%;
+	padding: 7% 0;
+
+}
+
+footer section.wrapper { 
+	
+}
+
+footer section.top { 
+	display: flex;
+	justify-content: space-between;
+
+}
+
+footer section.top div.item { 
+	margin-bottom: 20px;
+}
+
+footer section.top div.item h2 { 
+	font-size: 30px;
+	font-weight: 500;
+	margin-bottom: 50px;
+	max-width: 300px;
+}
+
+footer section.top div.item div.social { 
+
+}
+
+footer section.top div.item div.social ul {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+footer section.top div.item div.social ul li { 
+	background: #c1c7d0;
+	margin-right: 25px;
+	padding: 8px 10px;
+	border-radius: 10px;
+}
+footer section.top div.item div.social ul li :first-child{
+	margin-right: 0px;
+}
+
+footer section.top div.item div.social ul li img { 
+	filter: invert(50%)
+}
+footer section.top div.item div.social ul li img span { 
+}
+footer section.top div.item1 h5{
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+footer section.top div.item1{
+	width:50% ;
+}
+
+footer section.top div.item1 ul{
+
+}
+footer section.top div.item1 ul li{
+}
+
+footer section.bottom { 
+	padding: 3% 0;
+	width: 100%;
+
+}
+
+footer section.bottom div.title { 
+	display: flex;
+}
+
+footer section.bottom div.title img { 
+	display: block;
+
+}
+
+footer section.bottom div.title span { 
+	font-size: 17px;
+	font-weight: 600;
+     margin-left: 10px;
+}
+
+footer section.bottom div.bottom { 
+	margin-top: 10px;
+
+}
+
+footer section.bottom div.bottom ul { 
+	display: flex;
+	
+}
+
+footer section.bottom div.bottom ul li { 
+	margin-left: 20px;
+
+}
+
+footer section.bottom div.bottom ul li a { 
+
+}
+
+@media all and (max-width: 1280px){
+
+	section.spotlight .background .a img{
+		display: none;
+	}
+	section.spotlight .background{
+		margin: 0 auto;
+	}
+		
+	header section.wrapper nav.middle ul{
+		display: none;
+	}
+	#reviews section.wrapper section.bottom ul li{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	#reviews section.wrapper section.bottom ul{
+		flex-wrap: wrap;
+	}
+	#about ul{
+		flex-wrap: wrap;
+	}
+	#about ul li{
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	#blog section.wrapper section.top ul li{
+		width: 51%;
+		margin-bottom: 30px;
+	}
+	#blog section.wrapper section.top ul{
+		flex-wrap: wrap;
+	}
+	#contant div.left{
+		width: 100%;
+		margin-bottom: 50px;
+		border-radius: 1px;
+	}
+	#contant div.right{
+		width: 100%;
+	}
+	#contant section.wrapper{
+		flex-wrap: wrap;
+	}
+	#contant{
+		padding: 0;
+	}
+}
+@media all and (max-width:980px){
+	#content section.feature div.left{
+		flex-wrap: wrap;
+	}
+	#content section.feature div.left img{
+		
+	}
+}
+@media all and(max-width:768px){
+
+}
+@media all and(max-width:640px){
+
+}
+@media all and(max-width:480px){
+
+}
+@media all and(max-width:360px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
